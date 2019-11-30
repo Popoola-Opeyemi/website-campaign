@@ -1,0 +1,277 @@
+@import "variables.scss";
+@import "login.scss";
+
+html {
+  margin: 0;
+  padding: 0;
+
+  .zero {
+    margin: 0;
+    padding: 0;
+  }
+
+  // width: 100%;
+  body {
+    .navbar-brand {
+      padding: 30px 0px;
+    }
+    section.hero {
+      background-color: $red;
+      background-image: url("../static/img/bg_main.JPG");
+      background-position: bottom;
+      background-size: cover;
+
+      background-repeat: no-repeat;
+      h1.title {
+        font-size: 80px;
+        text-align: center;
+        // position: relative;
+      }
+      // .hero-body {
+      //   .container {
+      //     h1.title {
+      //       font-size: 80px;
+      //       position: absolute;
+      //       top: -400px;
+      //       text-align: center;
+      //     }
+      //   }
+      // }
+    }
+    @media screen and (max-width: $bp-tab) {
+      section.hero {
+        background-position: bottom;
+        background-image: url("../static/img/bg__mobile.JPG");
+        h1.title {
+          font-size: 40px;
+        }
+        // .hero-body {
+        //   .container {
+        //     h1.title {
+        //       font-size: 40px;
+        //       text-align: center;
+        //     }
+        //   }
+        // }
+      }
+    }
+
+    section.clients {
+      .container {
+        .section-title {
+          padding: 40px;
+          color: $blue;
+          font-size: 4rem;
+          font-weight: bold;
+        }
+        .title-offering {
+          font-weight: bold;
+          font-size: 4rem;
+
+          color: $red;
+        }
+        .title-content {
+          text-transform: capitalize;
+          display: block;
+          color: $blue;
+          padding: 10px;
+          font-size: 50px;
+        }
+      }
+    }
+
+    section.pricing-cards {
+      background-color: $blue;
+      // margin-top: 250px;
+      margin-top: 50px;
+      padding: 100px 0px;
+
+      .custom-container {
+        margin: 0px 120px;
+
+        .pricing {
+          // margin: 40px 0px;
+          .pricing-box {
+            padding-bottom: 50px;
+
+            border-radius: 20px;
+            box-sizing: border-box;
+            -webkit-box-shadow: 3px 3px 38px -5px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 3px 3px 38px -5px rgba(0, 0, 0, 0.75);
+            box-shadow: 3px -6px 38px -17px rgba(0, 0, 0, 0.75);
+
+            .box-title {
+              margin-bottom: 30px;
+              p.main-title {
+                color: $blue;
+                font-weight: bold;
+
+                font-size: 25px;
+              }
+              p.middle {
+                color: $red;
+              }
+              p.pg-count {
+                color: black;
+                font-weight: bold;
+              }
+            }
+            .prices {
+              button.button-price {
+                font-weight: bold;
+                background-color: darken($color: $red, $amount: 10);
+                border-radius: 10px;
+                margin: 20px 0px;
+              }
+              ul.prices-list {
+                li.text {
+                  text-transform: capitalize;
+                  font-weight: bold;
+                }
+                li.currency {
+                  color: $red;
+                  font-weight: bold;
+                  font-size: 20px;
+                }
+                li.currency-strike {
+                  font-size: 13px;
+                  font-weight: bold;
+                }
+              }
+              span.check-icon {
+                li {
+                  padding-top: 15px;
+                }
+                i.mdi {
+                  color: red;
+                  font-weight: bold;
+                }
+                i.names {
+                  text-transform: capitalize;
+                  font-style: normal;
+                }
+              }
+            }
+          }
+        }
+      }
+      @media screen and (max-width: $bp-tab) {
+        .custom-container {
+          margin: 0px 30px;
+        }
+      }
+    }
+
+    section.contact-pg {
+      background-color: $blue;
+      padding: 50px 0px;
+      .cus-contain {
+        color: white;
+        margin: 0px 120px;
+        .contact-box {
+          label {
+            color: $blue;
+          }
+          button {
+            color: white;
+            background-color: $red;
+          }
+
+          background-color: white;
+          padding: 23px;
+          -webkit-box-shadow: 3px -6px 38px -17px rgba(0, 0, 0, 0.75);
+          -moz-box-shadow: 3px -6px 38px -17px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px -6px 38px -17px rgba(0, 0, 0, 0.75);
+          ._title {
+            color: $blue;
+            font-weight: bold;
+            font-size: 23px;
+            text-transform: uppercase;
+          }
+          ._subtitle {
+            color: $red;
+            padding: 20px 0px;
+            font-weight: bold;
+            text-transform: uppercase;
+          }
+        }
+
+        .about-content {
+          ._title {
+            font-size: 50px;
+            font-weight: bold;
+          }
+          ._content {
+            p {
+              padding: 10px 0px;
+            }
+          }
+        }
+      }
+      @media screen and (max-width: $bp-tab) {
+        .cus-contain {
+          .columns {
+            display: flex;
+            flex-direction: column-reverse;
+          }
+          margin: 0px 30px;
+          .about-content {
+            p._title {
+              text-align: center;
+            }
+            ._content {
+              text-align: justify;
+            }
+          }
+        }
+      }
+    }
+    @media screen and (max-width: $bp-tab) {
+      section.contact-pg {
+        padding: 0px 0px;
+      }
+    }
+
+    footer.footer {
+      margin: 0px 120px;
+
+      .icon-set {
+        display: flex;
+        flex-direction: row;
+        .icon-bg {
+          margin: 0px 20px;
+          font-size: 40px;
+          a {
+            color: $blue;
+          }
+        }
+      }
+      .home-link {
+        text-decoration: none;
+        color: $blue;
+        font-size: 40px;
+      }
+    }
+
+    @media screen and (max-width: $bp-tab) {
+      footer.footer {
+        margin: 20px 0px;
+        .columns {
+          align-items: center;
+        }
+        .column {
+          text-align: center;
+        }
+        .icon-set {
+          display: flex;
+          justify-content: center;
+        }
+        .home-link {
+          text-decoration: none;
+          text-align: center;
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}

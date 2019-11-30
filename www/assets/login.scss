@@ -1,0 +1,25 @@
+@import "variables.scss";
+
+html {
+  body {
+    .login-page {
+      background-image: url("../static/img/login__bg.jpg");
+      background-position: center;
+      background-size: cover;
+
+      .__loginform {
+        color: white;
+        label {
+          color: white;
+        }
+        .__loginheader {
+          font-weight: bold;
+          font-size: 30px;
+        }
+        .__loginbutton {
+          margin: 30px 0px;
+        }
+      }
+    }
+  }
+}
