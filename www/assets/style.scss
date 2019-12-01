@@ -5,13 +5,19 @@ html {
   margin: 0;
   padding: 0;
 
-  .zero {
-    margin: 0;
-    padding: 0;
-  }
-
-  // width: 100%;
   body {
+    .red-button,
+    .red-button:hover {
+      background-color: $red;
+      color: white;
+    }
+
+    .blue-button,
+    .blue-button:hover {
+      background-color: $blue;
+      color: white;
+    }
+
     .navbar-brand {
       padding: 30px 0px;
     }
@@ -232,7 +238,7 @@ html {
       }
     }
 
-    footer.footer {
+    section.footer {
       margin: 0px 120px;
 
       .icon-set {
@@ -254,8 +260,11 @@ html {
     }
 
     @media screen and (max-width: $bp-tab) {
-      footer.footer {
+      section.footer {
         margin: 20px 0px;
+        .mobile-footer {
+          margin: 0px 30px;
+        }
         .columns {
           align-items: center;
         }
@@ -269,7 +278,18 @@ html {
         .home-link {
           text-decoration: none;
           text-align: center;
-          font-size: 40px;
+          font-size: 30px;
+        }
+      }
+    }
+    .register-form {
+      .modal-card-body {
+        .register-button {
+          padding: 10px 0px;
+          .reg-button {
+            background-color: $blue;
+            color: white;
+          }
         }
       }
     }

@@ -58,10 +58,10 @@ export const actions = {
   async Postdata({ commit }, param) {
     try {
       let req = await this.$axios.$post(`api/${param.url}`, param.data);
-      return req.store;
+      return req.done;
     } catch (error) {
-      console.log("an error occured", error);
       throw error;
+      console.log("an error occured", error);
     }
   }
 };

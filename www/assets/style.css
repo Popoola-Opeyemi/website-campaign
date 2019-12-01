@@ -1,0 +1,298 @@
+html body .login-page {
+  background-image: url("../static/img/login__bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+html body .login-page .__loginform {
+  color: white;
+}
+
+html body .login-page .__loginform label {
+  color: white;
+}
+
+html body .login-page .__loginform .__loginheader {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+html body .login-page .__loginform .__loginbutton {
+  margin: 30px 0px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+html .zero {
+  margin: 0;
+  padding: 0;
+}
+
+html body .navbar-brand {
+  padding: 30px 0px;
+}
+
+html body section.hero {
+  background-color: #d93636;
+  background-image: url("../static/img/bg_main.JPG");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+html body section.hero h1.title {
+  font-size: 80px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  html body section.hero {
+    background-position: bottom;
+    background-image: url("../static/img/bg__mobile.JPG");
+  }
+  html body section.hero h1.title {
+    font-size: 40px;
+  }
+}
+
+html body section.clients .container .section-title {
+  padding: 40px;
+  color: #46518c;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+html body section.clients .container .title-offering {
+  font-weight: bold;
+  font-size: 4rem;
+  color: #d93636;
+}
+
+html body section.clients .container .title-content {
+  text-transform: capitalize;
+  display: block;
+  color: #46518c;
+  padding: 10px;
+  font-size: 50px;
+}
+
+html body section.pricing-cards {
+  background-color: #46518c;
+  margin-top: 50px;
+  padding: 100px 0px;
+}
+
+html body section.pricing-cards .custom-container {
+  margin: 0px 120px;
+}
+
+html body section.pricing-cards .custom-container .pricing .pricing-box {
+  padding-bottom: 50px;
+  border-radius: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 3px 3px 38px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px -6px 38px -17px rgba(0, 0, 0, 0.75);
+}
+
+html body section.pricing-cards .custom-container .pricing .pricing-box .box-title {
+  margin-bottom: 30px;
+}
+
+html body section.pricing-cards .custom-container .pricing .pricing-box .box-title p.main-title {
+  color: #46518c;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+html body section.pricing-cards .custom-container .pricing .pricing-box .box-title p.middle {
+  color: #d93636;
+}
+
+html body section.pricing-cards .custom-container .pricing .pricing-box .box-title p.pg-count {
+  color: black;
+  font-weight: bold;
+}
+
+html body section.pricing-cards .custom-container .pricing .pricing-box .prices button.button-price {
+  font-weight: bold;
+  background-color: #b92323;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+html body section.pricing-cards .custom-container .pricing .pricing-box .prices ul.prices-list li.text {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+html body section.pricing-cards .custom-container .pricing .pricing-box .prices ul.prices-list li.currency {
+  color: #d93636;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+html body section.pricing-cards .custom-container .pricing .pricing-box .prices ul.prices-list li.currency-strike {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+html body section.pricing-cards .custom-container .pricing .pricing-box .prices span.check-icon li {
+  padding-top: 15px;
+}
+
+html body section.pricing-cards .custom-container .pricing .pricing-box .prices span.check-icon i.mdi {
+  color: red;
+  font-weight: bold;
+}
+
+html body section.pricing-cards .custom-container .pricing .pricing-box .prices span.check-icon i.names {
+  text-transform: capitalize;
+  font-style: normal;
+}
+
+@media screen and (max-width: 768px) {
+  html body section.pricing-cards .custom-container {
+    margin: 0px 30px;
+  }
+}
+
+html body section.contact-pg {
+  background-color: #46518c;
+  padding: 50px 0px;
+}
+
+html body section.contact-pg .cus-contain {
+  color: white;
+  margin: 0px 120px;
+}
+
+html body section.contact-pg .cus-contain .contact-box {
+  background-color: white;
+  padding: 23px;
+  -webkit-box-shadow: 3px -6px 38px -17px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px -6px 38px -17px rgba(0, 0, 0, 0.75);
+}
+
+html body section.contact-pg .cus-contain .contact-box label {
+  color: #46518c;
+}
+
+html body section.contact-pg .cus-contain .contact-box button {
+  color: white;
+  background-color: #d93636;
+}
+
+html body section.contact-pg .cus-contain .contact-box ._title {
+  color: #46518c;
+  font-weight: bold;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+html body section.contact-pg .cus-contain .contact-box ._subtitle {
+  color: #d93636;
+  padding: 20px 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+html body section.contact-pg .cus-contain .about-content ._title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+html body section.contact-pg .cus-contain .about-content ._content p {
+  padding: 10px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  html body section.contact-pg .cus-contain {
+    margin: 0px 30px;
+  }
+  html body section.contact-pg .cus-contain .columns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  html body section.contact-pg .cus-contain .about-content p._title {
+    text-align: center;
+  }
+  html body section.contact-pg .cus-contain .about-content ._content {
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html body section.contact-pg {
+    padding: 0px 0px;
+  }
+}
+
+html body footer.footer {
+  margin: 0px 120px;
+}
+
+html body footer.footer .icon-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+html body footer.footer .icon-set .icon-bg {
+  margin: 0px 20px;
+  font-size: 40px;
+}
+
+html body footer.footer .icon-set .icon-bg a {
+  color: #46518c;
+}
+
+html body footer.footer .home-link {
+  text-decoration: none;
+  color: #46518c;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  html body footer.footer {
+    margin: 20px 0px;
+  }
+  html body footer.footer .columns {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body footer.footer .column {
+    text-align: center;
+  }
+  html body footer.footer .icon-set {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  html body footer.footer .home-link {
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+  }
+}
+
+html body .modal-card {
+  width: 900px;
+}
+/*# sourceMappingURL=style.css.map */

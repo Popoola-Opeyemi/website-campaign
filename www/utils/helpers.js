@@ -46,8 +46,8 @@ export function Notification(
   self,
   message,
   type = "is-success",
-  duration = 800,
-  position = "is-top-right"
+  position = "is-top-right",
+  duration = 800
 ) {
   self.$buefy.snackbar.open({
     duration: duration,

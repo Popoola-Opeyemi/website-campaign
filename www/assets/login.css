@@ -1,0 +1,23 @@
+html body .login-page {
+  background-image: url("../static/img/login__bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+html body .login-page .__loginform {
+  color: white;
+}
+
+html body .login-page .__loginform label {
+  color: white;
+}
+
+html body .login-page .__loginform .__loginheader {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+html body .login-page .__loginform .__loginbutton {
+  margin: 30px 0px;
+}
+/*# sourceMappingURL=login.css.map */
