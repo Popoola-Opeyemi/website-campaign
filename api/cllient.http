@@ -1,0 +1,57 @@
+###
+GET http://localhost:4000/api/students?page=1&perPage=20
+###
+
+###
+GET http://localhost:4000/api/dashboard
+###
+
+###
+DELETE  http://localhost:4000/api/students/3
+###
+
+###
+GET   http://localhost:4000/api/students/1
+
+###
+
+
+POST http://localhost:4000/api/auth/login
+Content-Type: application/json;charset=UTF-8
+
+{
+  "email": "mosesozoumeh@gmail.com",
+  "password": "m@ses987"
+}
+
+###
+
+GET http://localhost:4000/api/auth/users
+
+######
+
+###
+
+GET http://localhost:4000/api/auth/logout
+
+######
+
+POST http://localhost:4000/api/register
+Content-Type: application/json;charset=UTF-8
+
+{
+  "fullname": "Emmanuel",
+  "mobile_number": "08011191811",
+  "email": "Popstarbaed@gmail.com",
+  "order_type": 1,
+  "plan_types":"starter"
+}
+###
+
+POST http://localhost:4000/api/quote
+Content-Type: application/json;charset=UTF-8
+
+{
+  "fullname": "Emmanuel",
+  "email": "Popstarbaed@gmail.com"
+}
